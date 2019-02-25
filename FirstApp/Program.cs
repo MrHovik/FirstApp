@@ -8,24 +8,13 @@ namespace FirstApp
 {
     class Program
     {
-        //TODO: добавить клас Math, добавить функцию BinPow
         static void Main(string[] args)
         {
-            string name, bio;
-            int age, n;
-            List<User> user = new List<User> ();
+            int a, n;
             n = Convert.ToInt32 (Console.ReadLine ());
-            for (int i = 0; i < n; i++)
-            {
-                name = Console.ReadLine();
-                bio = Console.ReadLine();
-                age = Convert.ToInt32(Console.ReadLine());
-                user.Add(new User (name, age, bio));
-            }
-            foreach (var e in user)
-            {
-                e.GetInfo();
-            }
+            a = Convert.ToInt32(Console.ReadLine());
+            Math.BinPow (a, n);
+            Console.WriteLine($"");
             Console.ReadKey();
         }
     }

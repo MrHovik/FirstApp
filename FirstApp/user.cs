@@ -12,7 +12,7 @@ namespace FirstApp
         public int Age;
         public string Bio;
         public User()
-        {zxcvzcxv
+        {   
             
         }
         public User(string name, int age, string bio)

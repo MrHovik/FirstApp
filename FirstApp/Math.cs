@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FirstApp
 {
-    class Math
+    static class Math
     {
+        static public void BinPow (int a, int n)
+        {
+           
+        }
     }
 }
