@@ -8,6 +8,7 @@ namespace FirstApp
 {
     class Program
     {
+        //TODO: добавить клас Math, добавить функцию BinPow
         static void Main(string[] args)
         {
             string name, bio;
